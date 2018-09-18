@@ -77,9 +77,12 @@ public class App {
     			
     			if (numSticks <= 0) {
     				System.out.println("You lost!");
+    				input.close();
+    				take.close();
     			}
     		}
     	}
     }
 	}  
+
 }
